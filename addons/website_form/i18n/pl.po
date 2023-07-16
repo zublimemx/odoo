@@ -27,7 +27,7 @@ msgstr ""
 "POT-Creation-Date: 2020-11-27 14:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
 "Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,7 +51,7 @@ msgstr "'%s' nie jest poprawną datą i czasem"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
 msgid ", .s_website_form"
-msgstr ""
+msgstr ", .s_website_form"
 
 #. module: website_form
 #: code:addons/website_form/controllers/main.py:0
@@ -92,6 +92,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                            <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Temat</span>\n"
+"<span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.contactus_form
@@ -104,6 +106,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                            <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Twoje nazwisko</span>\n"
+"<span class=\"s_website_form_mark\">*</span>"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.contactus_form
@@ -273,7 +277,7 @@ msgstr "W międzyczasie zapraszamy Cię do odwiedzenia"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
 msgid "Input Aligned"
-msgstr ""
+msgstr "Wyrównane wejście"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
@@ -374,7 +378,7 @@ msgstr "Numer"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
 msgid "On Success"
-msgstr ""
+msgstr "Przy sukcesie"
 
 #. module: website_form
 #. openerp-web
@@ -382,7 +386,7 @@ msgstr ""
 #: code:addons/website_form/static/src/snippets/s_website_form/options.js:0
 #, python-format
 msgid "Option 1"
-msgstr ""
+msgstr "Opcja 1"
 
 #. module: website_form
 #. openerp-web
@@ -390,7 +394,7 @@ msgstr ""
 #: code:addons/website_form/static/src/snippets/s_website_form/options.js:0
 #, python-format
 msgid "Option 2"
-msgstr ""
+msgstr "Opcja 2"
 
 #. module: website_form
 #. openerp-web
@@ -398,7 +402,7 @@ msgstr ""
 #: code:addons/website_form/static/src/snippets/s_website_form/options.js:0
 #, python-format
 msgid "Option 3"
-msgstr ""
+msgstr "Opcja 3"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
@@ -536,13 +540,13 @@ msgstr "Formularz został wysłany."
 #: code:addons/website_form/controllers/main.py:0
 #, python-format
 msgid "The form's specified model does not exist"
-msgstr ""
+msgstr "Określony model formularza nie istnieje"
 
 #. module: website_form
 #: code:addons/website_form/controllers/main.py:0
 #, python-format
 msgid "This message has been posted on your website!"
-msgstr ""
+msgstr "Ta wiadomość została opublikowana na Twojej stronie!"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
@@ -567,7 +571,7 @@ msgstr "Url"
 #. module: website_form
 #: model:ir.model.fields,help:website_form.field_ir_model__website_form_key
 msgid "Used in FormBuilder Registry"
-msgstr ""
+msgstr "Używany w oprogramowaniu FormBuilder Registry"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
@@ -588,7 +592,7 @@ msgstr "Strona WWW"
 #. module: website_form
 #: model:ir.model.fields,field_description:website_form.field_ir_model__website_form_key
 msgid "Website Form Key"
-msgstr ""
+msgstr "Klucz formularza strony internetowej"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.ir_model_view
@@ -607,7 +611,7 @@ msgstr "Nie można zduplikować pola modelu."
 #: code:addons/website_form/static/src/snippets/s_website_form/options.js:0
 #, python-format
 msgid "You can't duplicate the submit button of the form."
-msgstr ""
+msgstr "Nie można zduplikować przycisku przesyłania formularza."
 
 #. module: website_form
 #. openerp-web
@@ -621,12 +625,12 @@ msgstr "Nie można usunąć pola, które jest wymagane przez sam model."
 #: code:addons/website_form/static/src/snippets/s_website_form/options.js:0
 #, python-format
 msgid "You can't remove the submit button of the form"
-msgstr ""
+msgstr "Nie można usunąć przycisku przesyłania formularza"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
 msgid "rows"
-msgstr ""
+msgstr "wiersze"
 
 #. module: website_form
 #. openerp-web

@@ -13,8 +13,8 @@
 # Léonie Bouchat <lbo@odoo.com>, 2020
 # Stefano Consolaro <stefano.consolaro@mymage.it>, 2020
 # Friederike Fasterling-Nesselbosch, 2022
-# Sergio Zanchetta <primes2h@gmail.com>, 2023
 # Marianna Ciofani, 2023
+# Sergio Zanchetta <primes2h@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -22,8 +22,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
-"Last-Translator: Marianna Ciofani, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -60,7 +60,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.event_registration_report_template_badge
 msgid "( <i class=\"fa fa-clock-o\" aria-label=\"Period\" role=\"img\" title=\"Period\"/>"
 msgstr ""
-"( <i class=\"fa fa-clock-o\" aria-label=\"Period\" role=\"img\" "
+"( <i class=\"fa fa-clock-o\" aria-label=\"Periodo\" role=\"img\" "
 "title=\"Periodo\"/> Dal"
 
 #. module: event
@@ -216,8 +216,8 @@ msgid ""
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm button\" "
 "title=\"Confirm Registration\"/>"
 msgstr ""
-"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm button\" "
-"title=\"Conferma registrazione\"/>"
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Pulsante conferma\""
+" title=\"Conferma registrazione\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -225,7 +225,7 @@ msgid ""
 "<i class=\"fa fa-check\" role=\"img\" aria-label=\"Confirm button\" "
 "title=\"Confirm Registration\"/>"
 msgstr ""
-"<i class=\"fa fa-check\" role=\"img\" aria-label=\"Confirm button\" "
+"<i class=\"fa fa-check\" role=\"img\" aria-label=\"Pulsante conferma\" "
 "title=\"Conferma registrazione\"/>"
 
 #. module: event
@@ -248,7 +248,7 @@ msgid ""
 "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
 "title=\"Arrow\"/>"
 msgstr ""
-"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Icona freccia\" "
 "title=\"Freccia\"/>"
 
 #. module: event
@@ -262,8 +262,8 @@ msgid ""
 "<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"Attended "
 "button\" title=\"Confirm Attendance\"/>"
 msgstr ""
-"<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"Attended "
-"button\" title=\"Conferma presenza\"/>"
+"<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"Pulsante "
+"partecipazione\" title=\"Conferma presenza\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -271,8 +271,8 @@ msgid ""
 "<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Attended button\" "
 "title=\"Confirm Attendance\"/>"
 msgstr ""
-"<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Attended button\" "
-"title=\"Conferma presenza\"/>"
+"<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Pulsante "
+"partecipazione\" title=\"Conferma presenza\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_report_template_badge
@@ -1013,7 +1013,7 @@ msgstr ""
 "                        <br/><br/>\n"
 "                    </div>\n"
 "                    <div>\n"
-"                        Confermiamo la registrazione con la speranza di incontrarti,<br/>\n"
+"                        Nella speranza di incontrarti confermiamo la tua registrazione,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
 "                        % if event_organizer:\n"
@@ -3795,7 +3795,7 @@ msgstr "Registrazione per ${object.event_id.name}"
 #. module: event
 #: model:mail.template,report_name:event.event_registration_mail_template_badge
 msgid "badge_of_${(object.event_id.name or '').replace('/','_')}"
-msgstr "badge_of_${(object.event_id.name or '').replace('/','_')}"
+msgstr "tesserino_per_${(object.event_id.name or '').replace('/','_')}"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form

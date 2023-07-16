@@ -238,11 +238,15 @@ class HrExpense(models.Model):
             raise UserError(_("You need to have at least one product that can be expensed in your database to proceed!"))
 
         for attachment in attachments:
-            expense = self.env['hr.expense'].create({
+            vals = {
                 'name': attachment.name.split('.')[0],
                 'unit_amount': 0,
                 'product_id': product.id
-            })
+            }
+            if product.property_account_expense_id:
+                vals['account_id'] = product.property_account_expense_id.id
+
+            expense = self.env['hr.expense'].create(vals)
             expense.message_post(body=_('Uploaded Attachment'))
             attachment.write({
                 'res_model': 'hr.expense',
@@ -278,6 +282,8 @@ class HrExpense(models.Model):
         return super(HrExpense, self).unlink()
 
     def write(self, vals):
+        if 'sheet_id' in vals:
+            self.env['hr.expense.sheet'].browse(vals['sheet_id']).check_access_rule('write')
         if 'tax_ids' in vals or 'analytic_account_id' in vals or 'account_id' in vals:
             if any(not expense.is_editable for expense in self):
                 raise UserError(_('You are not authorized to edit this expense report.'))
@@ -422,7 +428,7 @@ Or send your receipts at <a href="mailto:%(email)s?subject=Lunch%%20with%%20cust
             move_line_name = expense.employee_id.name + ': ' + expense.name.split('\n')[0][:64]
             account_src = expense._get_expense_account_source()
             account_dst = expense._get_expense_account_destination()
-            account_date = expense.sheet_id.accounting_date or expense.date or fields.Date.context_today(expense)
+            account_date = expense.date or expense.sheet_id.accounting_date or fields.Date.context_today(expense)
 
             company_currency = expense.company_id.currency_id
 

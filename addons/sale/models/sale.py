@@ -635,7 +635,6 @@ class SaleOrder(models.Model):
                 'default_partner_shipping_id': self.partner_shipping_id.id,
                 'default_invoice_payment_term_id': self.payment_term_id.id or self.partner_id.property_payment_term_id.id or self.env['account.move'].default_get(['invoice_payment_term_id']).get('invoice_payment_term_id'),
                 'default_invoice_origin': self.name,
-                'default_user_id': self.user_id.id,
             })
         action['context'] = context
         return action
@@ -1042,8 +1041,8 @@ Reason(s) of this behavior could be:
             raise ValidationError(_('A transaction can\'t be linked to sales orders having different currencies.'))
 
         # Ensure the partner are the same.
-        partner = self[0].partner_id
-        if any(so.partner_id != partner for so in self):
+        partner = self[0].partner_invoice_id
+        if any(so.partner_invoice_id != partner for so in self):
             raise ValidationError(_('A transaction can\'t be linked to sales orders having different partners.'))
 
         # Try to retrieve the acquirer. However, fallback to the token's acquirer.

@@ -5,7 +5,6 @@
 # Translators:
 # Jan Pedro Tumusok <jpt@eyenetworks.no>, 2020
 # nle_odoo, 2020
-# Fredrik Ahlsen <fredrik@gdx.no>, 2020
 # Andy Schønhaug <odoo@cypodgroup.com>, 2020
 # Aleksander, 2020
 # Martin Trigaux, 2020
@@ -14,6 +13,7 @@
 # Marius Stedjan <marius@stedjan.com>, 2022
 # Lars Aam <lars.aam@vikenfiber.no>, 2022
 # Henning Fyllingsnes, 2023
+# Fredrik Ahlsen <fredrik@gdx.no>, 2023
 # 
 msgid ""
 msgstr ""
@@ -21,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
-"Last-Translator: Henning Fyllingsnes, 2023\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Last-Translator: Fredrik Ahlsen <fredrik@gdx.no>, 2023\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -7007,7 +7007,7 @@ msgstr "Kontonummeret må være unikt"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "Account Security"
-msgstr ""
+msgstr "Konto Sikkerhet"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_taxcloud
@@ -9062,7 +9062,7 @@ msgstr "Burundi"
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid "Button must have a name"
-msgstr ""
+msgstr "Knappen må ha et navn"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.module_form
@@ -9872,6 +9872,12 @@ msgid "Compute"
 msgstr "Beregn"
 
 #. module: base
+#: code:addons/base/models/ir_model.py:0
+#, python-format
+msgid "Compute method cannot depend on field 'id'"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_website_crm_score
 msgid "Compute scores and assign leads automatically"
 msgstr ""
@@ -10369,7 +10375,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_server__state__object_create
 msgid "Create a new Record"
-msgstr ""
+msgstr "Opprett et nytt kort"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_res_bank_form
@@ -10379,7 +10385,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_res_company_form
 msgid "Create a new company"
-msgstr ""
+msgstr "Opprett et nytt selskap"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_category_form
@@ -10390,7 +10396,7 @@ msgstr "Opprett en ny kontaktetikett"
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
 #: model_terms:ir.actions.act_window,help:base.action_partner_form
 msgid "Create a new customer in your address book"
-msgstr ""
+msgstr "Opprett en ny kunde i din adresseliste"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
@@ -10400,7 +10406,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
 msgid "Create a new vendor in your address book"
-msgstr ""
+msgstr "Opprett en ny leverandør i din adresseliste"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_studio
@@ -11866,7 +11872,7 @@ msgstr "EU Mini One Stop Shop (MOSS)"
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_ir_model_obj_name_uniq
 msgid "Each model must have a unique name."
-msgstr ""
+msgstr "Hver modell må ha et unikt navn."
 
 #. module: base
 #: model:ir.module.module,description:base.module_data_cleaning
@@ -12821,7 +12827,7 @@ msgstr "Feltbeskrivelse"
 #: model:ir.model,name:base.model_ir_model_fields_selection
 #: model:ir.ui.menu,name:base.ir_model_model_fields_selection
 msgid "Fields Selection"
-msgstr ""
+msgstr "Felt valg"
 
 #. module: base
 #: code:addons/base/models/ir_model.py:0
@@ -15056,6 +15062,12 @@ msgstr ""
 #: code:addons/base/models/res_users.py:0
 #, python-format
 msgid "Invalid 'group by' parameter"
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_default.py:0
+#, python-format
+msgid "Invalid JSON format in Default Value field."
 msgstr ""
 
 #. module: base
@@ -17526,7 +17538,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "New API Key"
-msgstr ""
+msgstr "Ny API nøkkel"
 
 #. module: base
 #: model:res.country,name:base.nc

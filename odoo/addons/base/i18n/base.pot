@@ -9727,6 +9727,12 @@ msgid "Compute"
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/ir_model.py:0
+#, python-format
+msgid "Compute method cannot depend on field 'id'"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_website_crm_score
 msgid "Compute scores and assign leads automatically"
 msgstr ""
@@ -14881,6 +14887,12 @@ msgstr ""
 #: code:addons/base/models/res_users.py:0
 #, python-format
 msgid "Invalid 'group by' parameter"
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_default.py:0
+#, python-format
+msgid "Invalid JSON format in Default Value field."
 msgstr ""
 
 #. module: base

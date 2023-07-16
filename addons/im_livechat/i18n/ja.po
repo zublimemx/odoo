@@ -16,6 +16,7 @@
 # Noma Yuki, 2020
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2021
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -23,8 +24,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
-"Last-Translator: Ryoko Tsuda <ryoko@quartile.co>, 2023\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -625,7 +626,7 @@ msgstr "グループ化…"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Happy face"
-msgstr ""
+msgstr "ハッピーフェイス"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__header_background_color
@@ -874,7 +875,7 @@ msgstr "ライブチャットサポート統計"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__livechat_username
 msgid "Livechat Username"
-msgstr ""
+msgstr "ライブチャットユーザ名"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -941,7 +942,7 @@ msgstr "名称"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Neutral face"
-msgstr ""
+msgstr "普通の顔"
 
 #. module: im_livechat
 #. openerp-web
@@ -1039,14 +1040,14 @@ msgstr "オンライン"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view_simple_modif
 msgid "Online Chat Name"
-msgstr ""
+msgstr "オンラインチャット名"
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "！！何が間違っています。"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__partner_id
@@ -1306,7 +1307,7 @@ msgstr "規則"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Sad face"
-msgstr ""
+msgstr "サッドフェイス"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__rating_text
@@ -1509,7 +1510,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_res_users__livechat_username
 msgid "This username will be used as your name in the livechat channels."
-msgstr ""
+msgstr "このユーザ名は、ライブチャットチャンネルでの名前として使用されます。"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator__time_to_answer

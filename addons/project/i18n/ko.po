@@ -8,6 +8,8 @@
 # Link Up링크업 <linkup.way@gmail.com>, 2020
 # Linkup <link-up@naver.com>, 2021
 # JH CHOI <hwangtog@gmail.com>, 2021
+# Daye Jeong, 2023
+# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
-"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Sarah Park, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -244,6 +246,9 @@ msgid ""
 "    of the note you are logging unless you specifically tag them)</i>. Use @ <b>mentions</b> to ping a colleague \n"
 "    or # <b>mentions</b> to reach an entire team."
 msgstr ""
+"내부 커뮤니케이션을 위하여 <b>메모를 기록</b>합니다 <i>(이 작업을 팔로우하는 경우에는 특별히 태그를\n"
+"    지정하지 않는 한 메모에 대한 알림을 받지 않습니다)</i>. @로 <b>멘션</b>하여 동료에게 연락하거나\n"
+"    #로 <b>멘션</b>하여 전체 팀에게 전달할 수 있습니다."
 
 #. module: project
 #: model:mail.template,body_html:project.rating_project_request_email_template
@@ -693,7 +698,7 @@ msgstr "이 단계를 삭제 하시겠습니까?"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "Assembling"
-msgstr ""
+msgstr "조립"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -1012,7 +1017,7 @@ msgstr "메일을 보내어 작업 생성"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create tasks by sending an email to"
-msgstr ""
+msgstr "다음으로 메일을 발송하여 작업을 생성합니다."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__create_date
@@ -1743,7 +1748,7 @@ msgstr "프로젝트의 등급 환경 설정이 '단계 변경 시 평가하기'
 msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
-msgstr ""
+msgstr "설정하면, 권한이 없는 사용자에게 기본 메시지 대신 이 내용을 전송합니다. "
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__active
@@ -2201,7 +2206,7 @@ msgstr "중립적인 얼굴"
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
 msgid "New"
-msgstr "새로운"
+msgstr "신규"
 
 #. module: project
 #. openerp-web
@@ -3252,7 +3257,7 @@ msgstr "단계"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_delete_wizard__stages_active
 msgid "Stages Active"
-msgstr ""
+msgstr "활성화된 단계"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_delete_wizard__stage_ids

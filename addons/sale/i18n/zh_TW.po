@@ -19,7 +19,7 @@ msgstr ""
 "POT-Creation-Date: 2023-03-09 15:44+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Benson <Benson.Dr@Gmail.com>, 2023\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2510,7 +2510,7 @@ msgstr "簽收人."
 #: code:addons/sale/models/sale.py:0 code:addons/sale/models/sale.py:0
 #, python-format
 msgid "New"
-msgstr "新的"
+msgstr ""
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_quotation_form

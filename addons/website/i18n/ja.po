@@ -19,8 +19,9 @@
 # Abe Tomohiro <tomohiro@quartile.co>, 2021
 # Nankyung Yoon <n.yoon@glavisarchitects.com>, 2022
 # 江口和志 <sandwhale1010@gmail.com>, 2022
-# Ryoko Tsuda <ryoko@quartile.co>, 2022
 # Andy Yiu, 2023
+# Ryoko Tsuda <ryoko@quartile.co>, 2023
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -28,8 +29,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 14:40+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Andy Yiu, 2023\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -48,6 +49,12 @@ msgstr "画像追加"
 #: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "\" alert with a"
 msgstr "\" アラートが"
+
+#. module: website
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "\"URL from\" can not be empty."
+msgstr ""
 
 #. module: website
 #: code:addons/website/models/website_rewrite.py:0
@@ -6150,7 +6157,7 @@ msgstr "関連キーワード"
 msgid ""
 "Remember information about the preferred look or behavior of the website, "
 "such as your preferred language or region."
-msgstr "サイトのお好みの外観や挙動について、情報を保存します。"
+msgstr "お好みの言語や地域など、サイトのお好みの外観や挙動について、情報を保存します。"
 
 #. module: website
 #. openerp-web
@@ -7344,6 +7351,16 @@ msgstr "このフィールドは、書き込む前に現在の `arch_db`を保�
 
 #. module: website
 #. openerp-web
+#: code:addons/website/static/src/js/editor/snippets.options.js:0
+#, python-format
+msgid ""
+"This font already exists, you can only add it as a local font to replace the"
+" server version."
+msgstr ""
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/editor/snippets.options.js:0
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
 msgid "This font is hosted and served to your visitors by Google servers"
@@ -7602,6 +7619,13 @@ msgstr "遷移"
 #, python-format
 msgid "Translate Attribute"
 msgstr "翻訳属性"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/editor/wysiwyg_multizone_translate.js:0
+#, python-format
+msgid "Translate Selection Option"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -9052,7 +9076,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_form_preview
 msgid "phone"
-msgstr ""
+msgstr "電話"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
