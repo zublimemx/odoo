@@ -930,8 +930,8 @@ msgid ""
 "                The goals are created for the specified users or member of the group."
 msgstr ""
 "Asigne una lista de metas a los usuarios elegidos para evaluarlos.\n"
-"                El desafío puede usar un periodo (semanal, mensual...) para la creación automática de metas.\n"
-"                Las metas son creadas para usuarios específicos o miembros del grupo."
+"                El desafío puede usar un periodo (semanal, mensual...) para crear metas en automático.\n"
+"                Las metas se crean para usuarios específicos o miembros del grupo."
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_attachment_count
@@ -980,7 +980,7 @@ msgstr "Descripción de la insignia"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__level
 msgid "Badge Level"
-msgstr "Nivel de insignia"
+msgstr "Nivel de la insignia"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_list_view
@@ -1931,7 +1931,7 @@ msgstr "Mensajes"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_karma_rank__karma_min
 msgid "Minimum karma needed to reach this rank"
-msgstr "Karma mínimo necesario para alcanzar este rango"
+msgstr "Recompensas mínimas necesarias para alcanzar este rango"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__model_id
@@ -2418,8 +2418,8 @@ msgid ""
 "Security rules to define who is allowed to manually grant badges. Not "
 "enforced for administrator."
 msgstr ""
-"Reglas de seguridad para definir a quién se permite otorgar insignias "
-"manualmente. No aplican para el administrador."
+"Reglas de seguridad para definir quien puede otorgar insignias manualmente. "
+"No aplican para el administrador."
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -2653,7 +2653,7 @@ msgstr "Cuanto más bajo, mejor"
 msgid ""
 "The maximum number of time this badge can be sent per month per person."
 msgstr ""
-"El máximo número de veces que esta insignia puede ser otorgada por mes por "
+"El número máximo de veces que se puede otorgar esta insignia al mes, por "
 "persona."
 
 #. module: gamification
@@ -2989,12 +2989,12 @@ msgstr "Ha alcanzado el último rango. ¡Felicidades!"
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_newbie
 msgid "You just began the adventure! Welcome!"
-msgstr "¡Acaba de comenzar la aventura! ¡Bienvenido!"
+msgstr "Su aventura apenas comienza, ¡bienvenido!"
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_master
 msgid "You know what you are talking about. People learn from you."
-msgstr "Sabe de lo que está hablando. La gente aprende de usted."
+msgstr "En verdad es un experto, la gente aprende de usted."
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_bachelor

@@ -13426,7 +13426,7 @@ msgstr "계산"
 #: code:addons/base/models/ir_model.py:0
 #, python-format
 msgid "Compute method cannot depend on field 'id'"
-msgstr ""
+msgstr "계산 방법은 'id' 필드에 종속될 수 없습니다."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_crm_score
@@ -18789,7 +18789,7 @@ msgstr "'그룹별' 매개 변수가 잘못되었습니다."
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid "Invalid JSON format in Default Value field."
-msgstr ""
+msgstr "기본값 필드의 JSON 형식이 잘못되었습니다."
 
 #. module: base
 #: code:addons/models.py:0
@@ -31441,6 +31441,12 @@ msgid "You cannot deactivate the user you're currently logged in as."
 msgstr "현재 사용중인 사용자를 비활성화 할 수 없습니다."
 
 #. module: base
+#: code:addons/base/models/ir_config_parameter.py:0
+#, python-format
+msgid "You cannot delete the %s record."
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/res_lang.py:0
 #, python-format
 msgid ""
@@ -31461,6 +31467,12 @@ msgstr "사용자의 기본 언어는 삭제할 수 없습니다."
 #, python-format
 msgid "You cannot merge a contact with one of his parent."
 msgstr "연락처를 부모와 병합할 수 없습니다."
+
+#. module: base
+#: code:addons/base/models/ir_config_parameter.py:0
+#, python-format
+msgid "You cannot rename config parameters with keys %s"
+msgstr ""
 
 #. module: base
 #: code:addons/models.py:0

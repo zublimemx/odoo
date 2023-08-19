@@ -34,7 +34,7 @@
 # Martin Trigaux, 2020
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2020
 # Mateus Lopes <mateus1@gmail.com>, 2020
-# grazziano <gra.negocia@gmail.com>, 2020
+# grazziano <grazziano.do+transifex@gmail.com>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # guisantos23 <guisantos23@yahoo.com.br>, 2020
@@ -290,9 +290,9 @@ msgid ""
 "messages.</p><p><i>You might need to invite users from the Settings app "
 "first.</i></p>"
 msgstr ""
-"<p><b>Conversa com Colegas de Trabalho</b> em tempo real usando mensagens "
-"diretas.</p><p><i>Pode ser necessário convidar usuários do aplicativo "
-"Definições primeiro.</i></p>"
+"<p><b>Converse com colegas de trabalho</b> em tempo real utilizando "
+"mensagens diretas.</p><p><i>Pode ser necessário convidar usuários a partir "
+"das Definições primeiro.</i></p>"
 
 #. module: mail
 #. openerp-web
@@ -304,9 +304,9 @@ msgid ""
 "Start your message with <i>'/'</i> to get the list of possible commands.</p>"
 msgstr ""
 "<p><b>Escreva uma mensagem</b> para os membros do canal aqui.</p> <p>Você "
-"pode notificar alguém com <i>'@'</i> ou vincule outro canal com <i>'#'</i>. "
-"Inicie sua mensagem com <i>'/'</i> para obter a lista de comandos "
-"possíveis.</p>"
+"pode notificar alguém com <i>'@'</i> ou compartilhar o link de outro canal "
+"com <i>'#'</i>. Inicie sua mensagem com <i>'/'</i> para obter a lista de "
+"comandos possíveis.</p>"
 
 #. module: mail
 #. openerp-web
@@ -317,16 +317,16 @@ msgid ""
 " groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
 "marketing, product XYZ, after work party, etc).</p>"
 msgstr ""
-"<p>Canais facilitam a organização de informação em diferentes tópicos e "
-"grupos.</p> <p>Tente <b>criar seu primeiro canal</b> (e.g. vendas, "
-"marketing, produto XYA, festa depois do trabalho, etc).</p>"
+"<p>Canais facilitam a organização de informações em diferentes tópicos e "
+"grupos.</p> <p>Tente <b>criar seu primeiro canal</b> (ex., vendas, "
+"marketing, produto XYZ, festa depois do trabalho etc.).</p>"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/tours/mail.js:0
 #, python-format
 msgid "<p>Create a channel here.</p>"
-msgstr "Crie um canal aqui."
+msgstr "<p>Crie um canal aqui.</p>"
 
 #. module: mail
 #. openerp-web
@@ -460,8 +460,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"Um dicionário python que será avaliado para gerar valores padrão quando "
-"forem criados novos registros para este apelido."
+"Um dicionário python que será avaliado para fornecer valores padrões ao "
+"criar novos registros para este alias."
 
 #. module: mail
 #: code:addons/mail/models/ir_actions.py:0
@@ -640,7 +640,7 @@ msgstr "Tipos de Atividades"
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__activity_user_type
 #: model:ir.model.fields,field_description:mail.field_ir_cron__activity_user_type
 msgid "Activity User Type"
-msgstr "Tipo de Usuário de Atividade"
+msgstr "Tipo de usuário da atividade"
 
 #. module: mail
 #. openerp-web
@@ -662,7 +662,7 @@ msgstr "Adicionar Canais"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_form
 msgid "Add Email Blacklist"
-msgstr "Adicionar E-mail à Lista Negra"
+msgstr "Adicionar e-mail à lista de bloqueio"
 
 #. module: mail
 #. openerp-web
@@ -698,7 +698,7 @@ msgstr "Adicione um novo %(document)s ou envie um e-mail para %(email_link)s"
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_blacklist_action
 msgid "Add an email address in the blacklist"
-msgstr "Adicione um endereço de e-mail na lista negra"
+msgstr "Adicione um endereço de e-mail na lista de bloqueio"
 
 #. module: mail
 #. openerp-web
@@ -913,6 +913,8 @@ msgstr ""
 #, python-format
 msgid "Are you sure you want to unblacklist this Email Address?"
 msgstr ""
+"Tem certeza de que deseja remover este endereço de e-mail da lista de "
+"bloqueio?"
 
 #. module: mail
 #. openerp-web
@@ -1102,7 +1104,7 @@ msgstr "Atenciosamente,"
 #: model:ir.model.fields,field_description:mail.field_res_users__is_blacklisted
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_form
 msgid "Blacklist"
-msgstr "Lista negra"
+msgstr "Lista de bloqueio"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_tree
@@ -1497,7 +1499,7 @@ msgstr "Parabéns, sua caixa de entrada está vazia!"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__smtp
 msgid "Connection failed (outgoing mail server problem)"
-msgstr "Falha na Conexão (problema no servidor de e-mail de saída)"
+msgstr "Falha na conexão (problema no servidor de envio de e-mail)"
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_partner
@@ -1821,7 +1823,7 @@ msgstr "Falha no Envio"
 #: code:addons/mail/static/src/components/message/message.xml:0
 #, python-format
 msgid "Delivery failure"
-msgstr ""
+msgstr "Falha na entrega"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__description
@@ -2461,7 +2463,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__failure_type
 msgid "Failure type"
-msgstr "Tipo da Falha"
+msgstr "Tipo de falha"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__starred_partner_ids
@@ -2995,8 +2997,8 @@ msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
 msgstr ""
-"Se o endereço e-mail for na lista negra, o contato não receberá mais nenhum "
-"e-mail em massa de nenhuma lista"
+"Se o e-mail estiver na lista de bloqueio, o contato não receberá mais envios"
+" em massa de nenhuma lista"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_followers__is_active
@@ -4651,9 +4653,9 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
-"Id opcional de um tópico (registro) ao qual todas as mensagens recebidas "
-"serão anexadas, a não ser que elas não sejam respostas a este. Se definido, "
-"ele desabilitará a criação de novos registros completamente."
+"ID opcional de uma thread (registro) à qual todas as mensagens recebidas "
+"serão anexadas, até mesmo quando não sejam respostas à thread. Se definido, "
+"isso desabilitará totalmente a criação de novos registros."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_notification__mail_id
@@ -4772,7 +4774,7 @@ msgstr "Modelo Principal"
 #: model:ir.model.fields,field_description:mail.field_mail_alias_mixin__alias_parent_thread_id
 #: model:ir.model.fields,field_description:mail.field_mail_channel__alias_parent_thread_id
 msgid "Parent Record Thread ID"
-msgstr "ID de Registro Pai da Linha"
+msgstr "ID da thread do registro primário"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_parent_model_id
@@ -4783,9 +4785,9 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-"Modelo de pai segurando o alias. O modelo segurando a referência de alias\n"
-"não é necessariamente o modelo dado por alias_model_id\n"
-"(example: project (parent_model) and task (model))"
+"Modelo primário que contém o alias. O modelo que contém a referência de "
+"alias não é necessariamente o modelo dado por alias_model_id (exemplo: "
+"projeto (parent_model) e tarefa (model))"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__parent_id
@@ -5536,7 +5538,7 @@ msgstr "Procurar grupos"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_moderation_view_search
 msgid "Search Moderation List"
-msgstr "Lista de Moderação de Pesquisa"
+msgstr "Buscar na lista de moderação"
 
 #. module: mail
 #. openerp-web
@@ -6106,9 +6108,9 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"O modelo (Odoo Documento Tipo), ao qual este apelido corresponde. Qualquer "
-"e-mails recebidos que não responde a um registro existente fará com que a "
-"criação de um novo registro desse modelo (e.g. a Project Task)"
+"O modelo (tipo de documento do Odoo) ao qual esse alias corresponde. "
+"Qualquer e-mail recebido que não responda a um registro existente causará a "
+"criação de um novo registro desse modelo (ex.: uma tarefa de projeto)"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
@@ -6118,8 +6120,8 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
-"O nome do alias de e-mail, por exemplo, 'empregos' se você quer pegar "
-"e-mails para <empregos@suaempresa.com.br>"
+"O nome do alias de e-mail, por exemplo, 'empregos', se desejar receber "
+"e-mails enviados a <empregos@suaempresa.com.br>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6131,11 +6133,11 @@ msgid ""
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
 msgstr ""
-"O proprietário dos registros criados após o recebimento de e-mails neste "
-"apelido. Se este campo não estiver definido, o sistema tentará encontrar o "
-"proprietário correto baseado no endereço do remetente (De), ou utilizará a "
-"conta do Administrador se não for encontrado um usuário do sistema para este"
-" endereço."
+"O proprietário dos registros criados ao receber e-mails com este alias. Se "
+"este campo não estiver definido, o sistema tentará encontrar o proprietário "
+"correto baseado no endereço do remetente (De), ou utilizará a conta do "
+"Administrador se não for encontrado um usuário do sistema para este "
+"endereço."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template_preview__scheduled_date
@@ -6195,8 +6197,8 @@ msgstr "Esta ação enviará um e-mail"
 #: model_terms:ir.ui.view,arch_db:mail.res_partner_view_form_inherit_mail
 msgid "This email is blacklisted for mass mailings. Click to unblacklist."
 msgstr ""
-"Este e-mail está na lista negra para envios em massa. Clique para "
-"desbloquear a lista."
+"Este e-mail está na lista de bloqueio para envios em massa. Clique para "
+"remover da lista."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_blacklist__email
@@ -6247,7 +6249,7 @@ msgstr "Este registro tem uma atividade de exceção."
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "This user can not be added in this channel"
-msgstr ""
+msgstr "Este usuário não pode ser adicionado a este canal"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_search
@@ -6713,6 +6715,8 @@ msgid ""
 "Value for `mail.catchall.domain.allowed` cannot be validated.\n"
 "It should be a comma separated list of domains e.g. example.com,example.org."
 msgstr ""
+"O valor para `mail.catchall.domain.allowed` não pode ser validado.\n"
+"Deve ser uma lista de domínios separada por vírgulas, ex., example.com,example.org."
 
 #. module: mail
 #. openerp-web
@@ -6761,7 +6765,7 @@ msgstr "Tipo de Visão"
 #: code:addons/mail/static/src/components/attachment/attachment.xml:0
 #, python-format
 msgid "View image"
-msgstr ""
+msgstr "Ver imagem"
 
 #. module: mail
 #. openerp-web
@@ -7009,6 +7013,8 @@ msgid ""
 "You do not have the access right to unblacklist emails. Please contact your "
 "administrator."
 msgstr ""
+"Você não tem direitos de acesso para remover e-mails da lista de bloqueio. "
+"Contate o seu administrador."
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -7041,7 +7047,7 @@ msgstr "Você foi convidado para: %s"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_notify_moderation
 msgid "You have messages to moderate, please go for the proceedings."
-msgstr "Você tem mensagens para moderar, por favor, vá para o processo."
+msgstr "Você tem mensagens para moderar. Acesse as suas atividades."
 
 #. module: mail
 #. openerp-web

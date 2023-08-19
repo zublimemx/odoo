@@ -26,7 +26,7 @@ class ChannelPartner(models.Model):
 
     custom_channel_name = fields.Char('Custom channel name')
     partner_id = fields.Many2one('res.partner', string='Recipient', ondelete='cascade')
-    partner_email = fields.Char('Email', related='partner_id.email', depends=['partner_id'], readonly=False)
+    partner_email = fields.Char('Email', related='partner_id.email', depends=['partner_id'], related_sudo=False)
     channel_id = fields.Many2one('mail.channel', string='Channel', ondelete='cascade')
     fetched_message_id = fields.Many2one('mail.message', string='Last Fetched')
     seen_message_id = fields.Many2one('mail.message', string='Last Seen')
@@ -271,6 +271,7 @@ class Channel(models.Model):
             all_emp_group = None
         if all_emp_group and all_emp_group in self and not self._context.get(MODULE_UNINSTALL_FLAG):
             raise UserError(_('You cannot delete those groups, as the Whole Company group is required by other modules.'))
+        self.env['bus.bus'].sendmany([[(self._cr.dbname, 'mail.channel', channel.id), {'info': 'delete'}] for channel in self])
         return super(Channel, self).unlink()
 
     def write(self, vals):

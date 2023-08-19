@@ -6,6 +6,8 @@
 # Martin Trigaux, 2020
 # 李振維, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2022
+# Wil Odoo, 2023
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2022\n"
+"Last-Translator: Tony Ng, 2023\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -224,9 +226,7 @@ msgstr "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone
 msgid ""
 "<span class=\"o_footer_copyright_name mr-2\">Copyright &amp;copy; Company "
 "name</span>"
-msgstr ""
-"<span class=\"o_footer_copyright_name mr-2\">Copyright &amp;copy; Company "
-"name</span>"
+msgstr "<span class=\"o_footer_copyright_name mr-2\">版權所有 &amp;copy; 公司名稱</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -2587,7 +2587,7 @@ msgstr "多行文本"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "My Odoo.com account"
-msgstr "Odoo.com帳戶"
+msgstr "我的 Odoo.com 帳戶"
 
 #. module: web
 #. openerp-web
@@ -2601,7 +2601,7 @@ msgstr "無"
 #: code:addons/web/static/src/js/views/basic/basic_model.js:0
 #, python-format
 msgid "New"
-msgstr ""
+msgstr "新增"
 
 #. module: web
 #. openerp-web
@@ -2820,7 +2820,7 @@ msgstr "Odoo錯誤"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
 msgid "Odoo Session Expired"
-msgstr "Odoo會話過期"
+msgstr "操作時段過期"
 
 #. module: web
 #. openerp-web
@@ -3910,7 +3910,7 @@ msgstr ""
 #. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__vat
 msgid "Tax ID"
-msgstr "稅ID"
+msgstr "稅務編號"
 
 #. module: web
 #. openerp-web
@@ -4424,7 +4424,7 @@ msgstr "驗證錯誤"
 #: code:addons/web/static/src/js/views/basic/basic_renderer.js:0
 #, python-format
 msgid "Values set here are company-specific."
-msgstr "此處設置的值是特定於公司的。"
+msgstr "此處設定的值是特定於每間公司的。"
 
 #. module: web
 #. openerp-web
@@ -4659,7 +4659,7 @@ msgstr "您應該將Wkhtmltopdf的版本至少升級到0.12.0，以便正確顯�
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
 msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "您的 Odoo 會話已過期。當前頁面即將刷新。"
+msgstr "你的 Odoo 操作時段已過期。本頁面即將自動重新載入。"
 
 #. module: web
 #. openerp-web

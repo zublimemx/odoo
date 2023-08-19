@@ -1503,7 +1503,7 @@ msgstr "Arch"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__arch_db
 msgid "Arch Blob"
-msgstr "Arch Blob"
+msgstr "Blob architettura"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__arch_fs
@@ -3880,7 +3880,7 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_res_config_settings__google_search_console
 #: model:ir.model.fields,help:website.field_website__google_search_console
 msgid "Google key, or Enable to access first reply"
-msgstr "chiave Google o Abilita per accedere alla prima risposta"
+msgstr "Chiave Google, o abilitare per accedere alla prima risposta"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
@@ -5465,6 +5465,8 @@ msgid ""
 "New Google Analytics accounts and keys are now using Google Analytics 4 "
 "which, for now, can't be integrated/embed in external websites."
 msgstr ""
+"I nuovi account e e le nuove chiavi utilizzano Google Analytics 4 il quale, "
+"per ora, non può essere integrato/incorporato in siti web esterni."
 
 #. module: website
 #. openerp-web
@@ -6716,7 +6718,7 @@ msgstr "Inviaci un messaggio"
 #: model_terms:ir.ui.view,arch_db:website.contactus
 #: model_terms:website.page,arch_db:website.contactus_page
 msgid "Send us an email"
-msgstr "Invia una e-mail"
+msgstr "Inviaci un'e-mail"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_ui_view__seo_name
@@ -7550,7 +7552,7 @@ msgid ""
 "This font already exists, you can only add it as a local font to replace the"
 " server version."
 msgstr ""
-"Questo font esiste già, puoi aggiungerlo solo come font locale per "
+"Font già esistente, è possibile aggiungerlo solo come font locale per "
 "rimpiazzare la versione del server."
 
 #. module: website
