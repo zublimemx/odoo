@@ -18732,6 +18732,12 @@ msgid "Invalid 'group by' parameter"
 msgstr "Fehlerhafter 'group by'-Parameter"
 
 #. module: base
+#: code:addons/template_inheritance.py:0
+#, python-format
+msgid "Invalid Expression while parsing xpath %r"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid "Invalid JSON format in Default Value field."
@@ -25173,7 +25179,7 @@ msgstr "Lager kaufen"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_stock_enterprise
 msgid "Purchase Stock Enterprise"
-msgstr ""
+msgstr "Einkauf Bestand Enterprise"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp

@@ -2865,7 +2865,7 @@ msgstr "หมายเหตุ"
 #: code:addons/point_of_sale/static/src/xml/Screens/ProductScreen/CashBoxOpening.xml:0
 #, python-format
 msgid "Notes:"
-msgstr ""
+msgstr "โน้ต:"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_needaction_counter
@@ -4412,7 +4412,7 @@ msgstr "เลขลำดับ"
 #: code:addons/point_of_sale/static/src/xml/Popups/EditListInput.xml:0
 #, python-format
 msgid "Serial/Lot Number"
-msgstr ""
+msgstr "หมายเลขซีเรียล/ล็อต"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4792,7 +4792,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "TOTAL"
-msgstr ""
+msgstr "ทั้งหมด"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_out
@@ -5379,7 +5379,7 @@ msgstr "ส่วนลดทั้งหมด"
 #: code:addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenStatus.xml:0
 #, python-format
 msgid "Total Due"
-msgstr ""
+msgstr "ครบกำหนดชำระทั้งหมด"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form

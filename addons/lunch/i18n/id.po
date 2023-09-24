@@ -819,7 +819,7 @@ msgstr "Ikon font awesome, misalnya fa-tasks"
 #. module: lunch
 #: model:ir.model.fields,help:lunch.field_lunch_supplier__email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr ""
+msgstr "Format alamat email \"Name <email@domain>\""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__email_formatted
@@ -2069,7 +2069,7 @@ msgstr "Makanan favorit Anda akan dibuat berdasarkan pesanan terakhir Anda."
 #: code:addons/lunch/static/src/xml/lunch_templates.xml:0
 #, python-format
 msgid "Your order"
-msgstr ""
+msgstr "Order Anda"
 
 #. module: lunch
 #: code:addons/lunch/models/lunch_order.py:0

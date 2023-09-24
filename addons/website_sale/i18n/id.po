@@ -266,6 +266,16 @@ msgid "<i class=\"fa fa-shopping-cart\"/> Add to Cart"
 msgstr "<i class=\"fa fa-shopping-cart\"/> Tambahkan ke Keranjang"
 
 #. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "<option value=\"\">Country...</option>"
+msgstr "<option value=\"\">Negara...</option>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "<option value=\"\">State / Province...</option>"
+msgstr ""
+
+#. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:0
 #, python-format
 msgid ""
@@ -842,6 +852,14 @@ msgstr ""
 "untuk akun Anda. Silahkan langsung hubungi kami untuk operasi ini."
 
 #. module: website_sale
+#: code:addons/website_sale/controllers/main.py:0
+#, python-format
+msgid ""
+"Changing your name is not allowed once documents have been issued for your "
+"account. Please contact us directly for this operation."
+msgstr ""
+
+#. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__child_id
 msgid "Children Categories"
 msgstr "Kategori Anak"
@@ -996,11 +1014,6 @@ msgstr "Sofa"
 #: model:ir.model,name:website_sale.model_res_country
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Country"
-msgstr "Negara"
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.address
-msgid "Country..."
 msgstr "Negara"
 
 #. module: website_sale
@@ -2766,11 +2779,6 @@ msgstr "Sumber-Sumber"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "State / Province"
-msgstr "Provinsi"
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.address
-msgid "State / Province..."
 msgstr "Provinsi"
 
 #. module: website_sale

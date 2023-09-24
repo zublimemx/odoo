@@ -809,7 +809,7 @@ msgstr "Selalu Mengizinkan"
 #: code:addons/mail/models/res_partner.py:0
 #, python-format
 msgid "An email is required for find_or_create to work"
-msgstr ""
+msgstr "Email dibutuhkan agar for find_or_create dapat bekerja"
 
 #. module: mail
 #. openerp-web
@@ -3652,7 +3652,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
-msgstr ""
+msgstr "Gabung Wizard Partner"
 
 #. module: mail
 #: code:addons/mail/wizard/base_partner_merge.py:0
@@ -5130,7 +5130,7 @@ msgstr "Rekam ID Thread"
 #: code:addons/mail/models/mail_message.py:0
 #, python-format
 msgid "Records:"
-msgstr ""
+msgstr "Record:"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__references
@@ -6020,7 +6020,7 @@ msgstr "Kode html yang di-\"escape\" menggantikan jalan pintas"
 #: model:ir.model.fields,help:mail.field_res_partner__user_id
 #: model:ir.model.fields,help:mail.field_res_users__user_id
 msgid "The internal user in charge of this contact."
-msgstr ""
+msgstr "User internal yang bertanggung jawab untuk kontak ini."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_model_id
@@ -7009,6 +7009,9 @@ msgid ""
 " users it is important to change it immediately for security reasons. I will"
 " keep nagging you about it!"
 msgstr ""
+"Password Anda adalah default (admin)! Bila sistem ini terbuka ke user yang "
+"tidak dipercaya penting bagi Anda untuk langsung merubahnya untuk alasan "
+"keamanan. Saya akan terus mengingatkan Anda mengenai hal ini!"
 
 #. module: mail
 #. openerp-web

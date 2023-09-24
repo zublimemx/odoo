@@ -950,13 +950,13 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_profitability_report__expense_cost
 msgid "Other Costs"
-msgstr ""
+msgstr "他の原価"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_profitability_report__other_revenues
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_plan
 msgid "Other Revenues"
-msgstr ""
+msgstr "他の収益"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_plan
@@ -1301,7 +1301,7 @@ msgstr "タスクの繰り返し"
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_task_create_sale_order__task_id
 msgid "Task for which we are creating a sales order"
-msgstr ""
+msgstr "セールスオーダを作成するタスク"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project_overview.py:0
@@ -1528,7 +1528,7 @@ msgstr "%s のタイムシート"
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__product_template__service_type__timesheet
 msgid "Timesheets on project (one fare per SO/Project)"
-msgstr ""
+msgstr "プロジェクトのタイムシート(販売オーダ/プロジェクトごとに1価格)"
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__product_template__service_policy__delivered_timesheet
