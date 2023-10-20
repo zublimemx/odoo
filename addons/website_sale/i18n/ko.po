@@ -9,8 +9,8 @@
 # JH CHOI <hwangtog@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
 # Martin Trigaux, 2022
-# Sarah Park, 2023
 # Daye Jeong, 2023
+# Sarah Park, 2023
 # Wil Odoo, 2023
 # 
 msgid ""
@@ -957,7 +957,7 @@ msgstr "계정에 청구서를 발행하고 나면 이름을 변경할 수 없�
 msgid ""
 "Changing your name is not allowed once documents have been issued for your "
 "account. Please contact us directly for this operation."
-msgstr ""
+msgstr "사용자 계정으로 문서가 발행된 후에는 이름을 변경할 수 없습니다. 이 작업은 저희에게 직접 문의 주세요."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__child_id
@@ -2921,8 +2921,8 @@ msgstr "제안"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_b2b
-msgid "TIN / VAT"
-msgstr "TIN(납세자인식번호) / VAT(부가가치세)"
+msgid "VAT"
+msgstr "부가가치세"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
