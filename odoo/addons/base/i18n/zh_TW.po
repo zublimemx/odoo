@@ -10,9 +10,9 @@
 # dott.dev <dottdot.dev@gmail.com>, 2021
 # Shigurefox <tom.liang@omniwaresoft.com.tw>, 2021
 # Martin Trigaux, 2023
-# Wil Odoo, 2023
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2023
 # Benson <Benson.Dr@Gmail.com>, 2023
+# Wil Odoo, 2023
 # Tony Ng, 2023
 # 
 msgid ""
@@ -5229,24 +5229,19 @@ msgid ""
 msgstr ""
 "\n"
 "管理休假請求和分配\n"
+"=====================================\n"
 "\n"
-"Lead to Tickets\n"
-"===============\n"
+"此應用程式控制公司的休假計畫. 它允許員工請求休假. 然後，經理可以審核休假請求，並批准或拒絕這些請求. 這樣，您可以控制公司或部門的整體休假計畫.\n"
 "\n"
-"Link module to map leads to tickets\n"
-"        =====================================\n"
+"您可以設定多種休假(疾病、帶薪天數等)，並使用休假分配快速將休假分配給員工或部門. 員工還可以通過進行新的休假分配來請求更多休息日. 它將增加該休假類型的可用天數總數(如果請求被接受).\n"
 "\n"
-"此應用程式控制公司的休假計畫。它允許員工請求休假。然後，經理可以審核休假請求，並批准或拒絕這些請求。這樣，您可以控制公司或部門的整體休假計畫。\n"
-"\n"
-"您可以設定多種休假(疾病、帶薪天數等)，並使用休假分配快速將休假分配給員工或部門。員工還可以通過進行新的休假分配來請求更多休息日。它將增加該休假類型的可用天數總數(如果請求被接受)。\n"
-"\n"
-"您可以通過以下報告以不同的方式追蹤休假時間:\n"
+"您可以通過以下報表以不同的方式追蹤休假時間:\n"
 "\n"
 "• 休假摘要\n"
 "• 按部門休假\n"
 "• 休假分析\n"
 "\n"
-"還可以與內部議程(CRM 模組的會議)同步，以便在通過設定\"關閉類型\"的休假請求時自動建立會議。\n"
+"還可以與內部議程(CRM 模組的會議)同步，以便在通過設定\"關閉類型\"的休假請求時自動建立會議.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mass_mailing_slides
@@ -10522,6 +10517,9 @@ msgid ""
 "    notably for selling mouse traps. With that trick he cut\n"
 "    IT budget by almost half within the last 2 years."
 msgstr ""
+"Addison Olson works in IT sector <b>since 10 years</b>. He is known\n"
+"    notably for selling mouse traps. With that trick he cut\n"
+"    IT budget by almost half within the last 2 years."
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -12600,7 +12598,7 @@ msgstr "勾選此項 如果 這個 聯繫人 是 一個 員工."
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment__checksum
 msgid "Checksum/SHA1"
-msgstr "Checksum/SHA1"
+msgstr "校驗碼/SHA1"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__child_ids
@@ -13052,7 +13050,7 @@ msgstr "計算"
 #: code:addons/base/models/ir_model.py:0
 #, python-format
 msgid "Compute method cannot depend on field 'id'"
-msgstr ""
+msgstr "計算方法不能依賴於 id 欄位"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_crm_score
@@ -15421,6 +15419,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"解析視圖時出錯：\n"
+"\n"
+"%s"
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:0
@@ -18404,13 +18405,13 @@ msgstr "無效的「分組」參數"
 #: code:addons/template_inheritance.py:0
 #, python-format
 msgid "Invalid Expression while parsing xpath %r"
-msgstr ""
+msgstr "解析 xpath 時出現無效表達式 %r"
 
 #. module: base
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid "Invalid JSON format in Default Value field."
-msgstr ""
+msgstr "預設值字段中的 JSON 格式無效。"
 
 #. module: base
 #: code:addons/models.py:0
@@ -18485,7 +18486,7 @@ msgstr "動作定義中使用了無效的模型名稱 %r。"
 #: code:addons/base/models/ir_actions.py:611
 #, python-format
 msgid "many2many fields cannot be evaluated by reference"
-msgstr ""
+msgstr "many2many 欄位不能通過引用進行評估"
 
 #. module: base
 #: code:addons/template_inheritance.py:0
@@ -18861,7 +18862,7 @@ msgstr "LGPL 第3版"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_lt_reports
 msgid "Lithuania - Accounting Reports"
-msgstr ""
+msgstr "Lithuania - Accounting Reports"
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:0
@@ -20847,7 +20848,7 @@ msgstr "Mr."
 #. module: base
 #: model:res.partner.title,shortcut:base.res_partner_title_madam
 msgid "Mrs."
-msgstr "Mrs."
+msgstr "太太"
 
 #. module: base
 #: model:res.groups,name:base.group_multi_company
@@ -24467,7 +24468,7 @@ msgstr "顯示活動推文的漂亮姿勢"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_layout__image
 msgid "Preview image src"
-msgstr "預覽圖片src"
+msgstr "預覽圖片來源"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_layout__pdf
@@ -26620,7 +26621,7 @@ msgstr "塞拉利昂"
 #: model:ir.module.category,name:base.module_category_sales_sign
 #: model:ir.module.module,shortdesc:base.module_sign
 msgid "Sign"
-msgstr "簽字"
+msgstr "簽名"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_contract_salary
@@ -26630,7 +26631,7 @@ msgstr "簽訂勞動契約"
 #. module: base
 #: model:ir.module.module,summary:base.module_documents_sign
 msgid "Signature templates from Documents"
-msgstr "文件簽名模板"
+msgstr "文件中的簽名範本"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_signup
@@ -27219,7 +27220,7 @@ msgstr "補充參數"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_event_track_live
 msgid "Support live tracks: streaming, participation, youtube"
-msgstr ""
+msgstr "支援直播曲目: 流媒體、參與、youtube"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_quality_control_picking_batch
@@ -27708,7 +27709,7 @@ msgstr "模組`%s`現在可能不能使用，請稍後再試。"
 #: code:addons/base/models/ir_module.py:0
 #, python-format
 msgid "Those modules cannot be uninstalled: %s"
-msgstr ""
+msgstr "這些模塊無法卸載：%s"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_category__active
@@ -29067,7 +29068,7 @@ msgstr "美國海外領土"
 #. module: base
 #: model:res.country,vat_label:base.at
 msgid "USt"
-msgstr ""
+msgstr "USt"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_data_merge_utm
@@ -30540,7 +30541,7 @@ msgstr "您不能停用您當前登錄的使用者."
 #: code:addons/base/models/ir_config_parameter.py:0
 #, python-format
 msgid "You cannot delete the %s record."
-msgstr ""
+msgstr "不能刪除 %s 記錄。"
 
 #. module: base
 #: code:addons/base/models/res_lang.py:0
@@ -30568,7 +30569,7 @@ msgstr "您不能把聯繫人和其父項合併。"
 #: code:addons/base/models/ir_config_parameter.py:0
 #, python-format
 msgid "You cannot rename config parameters with keys %s"
-msgstr ""
+msgstr "不能用鍵 %s 重命名配置參數"
 
 #. module: base
 #: code:addons/models.py:0

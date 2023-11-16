@@ -5,7 +5,6 @@
 # Translators:
 # Mohamad Dadi Nurdiansah <dadi.nurdiansah@gmail.com>, 2020
 # Gradien Foundation <gradien.co@gmail.com>, 2020
-# Edi Santoso <repopamor@gmail.com>, 2020
 # firman firman <firman.olxbpn@gmail.com>, 2020
 # Muhammad Syarif <mhdsyarif.ms@gmail.com>, 2020
 # oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2020
@@ -27,6 +26,7 @@
 # Muftiara Syuhada <muftiara.syuhada@gmail.com>, 2021
 # Martin Trigaux, 2022
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2022
+# Edi Santoso <repopamor@gmail.com>, 2023
 # Abe Manyo, 2023
 # 
 msgid ""
@@ -830,7 +830,7 @@ msgstr "Dibatalkan"
 #: code:addons/point_of_sale/static/src/js/ChromeWidgets/OrderManagementButton.js:0
 #, python-format
 msgid "Cannot access order management screen if offline."
-msgstr ""
+msgstr "Tidak dapat mengakses layar pengelola penjualan jika luring."
 
 #. module: point_of_sale
 #. openerp-web
@@ -1760,7 +1760,7 @@ msgstr "Dokumentasi"
 #: code:addons/point_of_sale/static/src/xml/Popups/OfflineErrorPopup.xml:0
 #, python-format
 msgid "Don't show again"
-msgstr ""
+msgstr "Jangan tunjukkan lagi"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_vkeyboard
@@ -1805,7 +1805,7 @@ msgstr "Contoh pelanggan: Steward, tanggal: 2020-05-09"
 #: code:addons/point_of_sale/static/src/xml/Screens/ClientListScreen/ClientLine.xml:0
 #, python-format
 msgid "EDIT"
-msgstr ""
+msgstr "EDIT"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2849,7 +2849,7 @@ msgstr "Tidak menemukan order"
 #: code:addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductList.xml:0
 #, python-format
 msgid "No results found for \""
-msgstr ""
+msgstr "Tidak ada hasil yang ditemukan untuk \""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_open_statement.py:0
@@ -5574,7 +5574,7 @@ msgstr "Tidak dapat mengunduh faktur."
 #: code:addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/OrderFetcher.js:0
 #, python-format
 msgid "Unable to fetch orders if offline."
-msgstr ""
+msgstr "Tidak dapat mengambil pesanan jika luring"
 
 #. module: point_of_sale
 #. openerp-web
