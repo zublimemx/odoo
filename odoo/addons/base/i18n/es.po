@@ -1581,8 +1581,8 @@ msgstr ""
 "\n"
 "    Fija la fecha de bloqueo y hazla irreversible:\n"
 "\n"
-"    * No puedes imponer restricciones más estrictas a los asesores que a los usuarios. Por lo tanto, la fecha de bloqueo de todos los usuarios debe ser anterior (o igual) a la fecha de bloqueo de la factura/cuenta.\n"
-"    * No puedes bloquear un periodo que no ha terminadom por lo tanto, la fecha de bloqueo de todos los usuarios debe ser anterior (o igual) al último día del mes previo.\n"
+"    * No puede imponer restricciones más estrictas a los asesores que a los usuarios. Por lo tanto, la fecha de bloqueo de todos los usuarios debe ser anterior (o igual) a la fecha de bloqueo de la factura/cuenta.\n"
+"    * No puede bloquear un periodo que no ha terminado por lo tanto, la fecha de bloqueo de todos los usuarios debe ser anterior (o igual) al último día del mes previo.\n"
 "    * Cualquier fecha de bloqueo para todos los usuarios nueva debe ser posterior (o igual) a la fecha previa.\n"
 "    "
 
@@ -12749,7 +12749,7 @@ msgstr "¡Solo se puede renombrar un campo a la vez!"
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid "Can't compare more than two views."
-msgstr "No puedes comparar más de dos vistas."
+msgstr "No se pueden comparar más de dos vistas."
 
 #. module: base
 #: model:res.country,name:base.ca
@@ -27543,6 +27543,14 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_ups
+msgid ""
+"This is the legacy integration with UPS that is no longer supported. Please "
+"install the new \"UPS Shipping\" module and uninstall this one as soon as "
+"possible. This integration will stop working in 2024."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_delivery_ups_rest
 msgid "Send your shippings through UPS and track them online"
 msgstr ""
 "Envíe sus envíos a través de UPS y realice un seguimiento de ellos en línea"
@@ -27984,7 +27992,7 @@ msgstr ""
 #, python-format
 msgid "Sorry, you are not allowed to access these fields on attachments."
 msgstr ""
-"Lo sentimos, no puedes acceder a estos campos en los archivos adjuntos."
+"Lo sentimos, no está autorizado para acceder a estos campos en los adjuntos."
 
 #. module: base
 #: code:addons/base/models/ir_attachment.py:0
@@ -30333,6 +30341,11 @@ msgstr "Código UNSPSC de productos"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_ups
+msgid "UPS Shipping (Legacy)"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_delivery_ups_rest
 msgid "UPS Shipping"
 msgstr "Envíos por UPS"
 
