@@ -3675,7 +3675,7 @@ Fields:
             # If there are only fields that do not trigger _write (e.g. only
             # determine inverse), the below ensures that `write_date` and
             # `write_uid` are updated (`test_orm.py`, `test_write_date`)
-            if self._log_access and self.ids:
+            '''if self._log_access and self.ids:
                 towrite = env.all.towrite[self._name]
                 for record in real_recs:
                     towrite[record.id]['write_uid'] = self.env.uid
@@ -3683,7 +3683,7 @@ Fields:
                 self.env.cache.invalidate([
                     (self._fields['write_date'], self.ids),
                     (self._fields['write_uid'], self.ids),
-                ])
+                ])'''
 
             # for monetary field, their related currency field must be cached
             # before the amount so it can be rounded correctly
